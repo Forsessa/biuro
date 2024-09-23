@@ -1,4 +1,4 @@
-main{
+.site{
     display:flex;
 }
 body{
@@ -9,7 +9,8 @@ header,footer{
     background-color: #ba6b6c;
     padding: 7px;    
 }
-header a{
+
+header, footer a{
     color: white;
     padding: 7px;
 }
@@ -18,12 +19,28 @@ header a{
     width: 20%;
     height: 500px;
 }
-.center{
+main{
     background-color: mistyrose;
     width: 60%;
     height: 500px;
 }
-.center img{
+main img{
+    height: 120px;
     margin: 7px;
     box-shadow: 7px 7px 7px dimgray
+}
+.data{
+    background-color: mistyrose;
+    padding: 50px;
+
+}
+table{
+    border: solid 1px maroon;
+    width: 80%;
+}
+h2::first-letter{
+    color: maroon;
+}
+li{
+    text-align: left;
 }
